@@ -1,6 +1,5 @@
 var Sequelize = require('sequelize');
 var sequelize = require('./dbconfig');
-var User = require('./user');
 var Question = sequelize.define('question', {
   qno: {
     type: Sequelize.INTEGER,

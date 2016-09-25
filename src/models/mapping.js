@@ -1,5 +1,6 @@
 var Sequelize = require('sequelize');
 var sequelize = require('./dbconfig');
+
 var Mapping = sequelize.define('mapping', {
   qno: {
     type: Sequelize.INTEGER,
